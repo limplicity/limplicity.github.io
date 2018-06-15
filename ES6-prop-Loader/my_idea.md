@@ -10,9 +10,9 @@ that draft first. Please tell me if I missed something important or got somethin
 Philosophy
 ----------
 
-The Loader API is pretty important because it opens up the possibility to arbitrarily extend the behavior and capabilities of ES6 `import`. 
-Therefore it should be crafted with future-proofness and extensibility in mind. Therefore it should be pretty generic and not imply too much 
-detail about how `import'ing works internally (e.g. resolving, fetching, parsing, compiling, instantiating, etc.).
+The Loader API is pretty important because it opens up the possibility to arbitrarily extend the behavior and capabilities of ES6 `import`. Therefore it should be crafted with 
+future-proofness and extensibility in mind. Therefore it should be pretty generic and not imply too much detail about how `import`ing works internally (e.g. resolving, fetching, parsing, 
+compiling, instantiating, etc.).
 
 I think the most generic yet usable definition of `import` is as follows:
 

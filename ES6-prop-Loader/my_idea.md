@@ -37,11 +37,11 @@ This would imply that also the corresponding Loader object be immutable. Therefo
 like to modify the behavior of `import`.
 
 ```
-let l1 = new Loader(async (src) => {
+let l1 = new Loader(async (src) => ({
 	// ignoring `src`
 		foo: 15,
 		bar: x => x*x,
-});
+}));
 
 const foo = await l1.import('foo');
 console.log(foo.bar(5));
